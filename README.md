@@ -22,8 +22,8 @@ If not, download and install them from the following links:
 Open your terminal and run the following commands:
 
 ```bash
-git clone https://bitbucket.org/jerame362/bloktroopers.git
-cd bloktroopers
+git clone https://github.com/chemdivinap/BlokTroopers.git
+cd BlokTroopers
 ```
 
 ### 3. Install Dependencies
@@ -46,5 +46,5 @@ npm start
 Please run npm install and npm start.
 
 ## Preview Photo - 📸
-<img src="dist/ad.jpg" width="100%">
+<img src="dist/screenshots/3.jpg" width="100%">
 
