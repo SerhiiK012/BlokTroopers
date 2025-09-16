@@ -62,10 +62,10 @@ io.on('connection', (socket) => {
 const PORT = process.env.PORT || 5000
 server.listen(PORT, () => {
     console.log(`Listen on http://localhost:${PORT}`, new Date());
-    // (async () => {
-    //     const open = (await import('open')).default;
-    //     open(`http://localhost:${PORT}`);
-    // })();
+    (async () => {
+        const open = (await import('open')).default;
+        open(`http://localhost:${PORT}`);
+    })();
 });
 
 const checkUserID = (userID) => {

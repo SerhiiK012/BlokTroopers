@@ -43,7 +43,6 @@
   },
   "scripts": {
     "start": "node app.js",
-    "postinstall": "npm run start",
     "test": "mocha ./test/*.test.js --exit",
     "coverage": "nyc yarn test && nyc report --reporter=text-lcov | node ./node_modules/coveralls/bin/coveralls.js"
   },
