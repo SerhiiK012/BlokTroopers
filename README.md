@@ -22,7 +22,7 @@ If not, download and install them from the following links:
 Open your terminal and run the following commands:
 
 ```bash
-git clone https://github.com/chemdivinap/BlokTroopers.git
+git clone https://github.com/SerhiiK012/BlokTroopers.git
 cd BlokTroopers
 ```
 
